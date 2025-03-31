@@ -1,0 +1,180 @@
+{
+    "version": "1.0.0",
+    "metadata": {
+        "name": "New Project",
+        "author": "",
+        "created": "",
+        "modified": "",
+        "description": "",
+        "tags": [],
+        "category": "Other"
+    },
+    "settings": {
+        "tempo": 120.0,
+        "timeSignature": {
+            "numerator": 4,
+            "denominator": 4
+        },
+        "key": "C",
+        "scale": "major",
+        "length": 240.0,
+        "sampleRate": 44100,
+        "bitDepth": 32
+    },
+    "transport": {
+        "loopEnabled": false,
+        "loopStart": 0.0,
+        "loopEnd": 4.0,
+        "markers": [],
+        "timeRulerOffset": 0.0,
+        "snapToGrid": true,
+        "gridSize": 0.25
+    },
+    "tracks": [
+        {
+            "id": "master",
+            "name": "Master",
+            "type": "master",
+            "parameters": {
+                "volume": 1.0,
+                "pan": 0.0,
+                "mute": false,
+                "solo": false,
+                "record": false,
+                "monitoring": "auto",
+                "height": 100
+            },
+            "plugins": [],
+            "automation": {}
+        },
+        {
+            "id": "audio-1",
+            "name": "Audio 1",
+            "type": "audio",
+            "parameters": {
+                "volume": 1.0,
+                "pan": 0.0,
+                "mute": false,
+                "solo": false,
+                "record": false,
+                "monitoring": "auto",
+                "height": 100,
+                "input": {
+                    "device": "",
+                    "channel": 1
+                },
+                "output": {
+                    "bus": "master",
+                    "channel": 1
+                }
+            },
+            "plugins": [],
+            "clips": [],
+            "automation": {}
+        },
+        {
+            "id": "midi-1",
+            "name": "MIDI 1",
+            "type": "midi",
+            "parameters": {
+                "volume": 1.0,
+                "pan": 0.0,
+                "mute": false,
+                "solo": false,
+                "record": false,
+                "monitoring": "auto",
+                "height": 100,
+                "input": {
+                    "device": "",
+                    "channel": 1
+                },
+                "output": {
+                    "bus": "master",
+                    "channel": 1
+                }
+            },
+            "plugins": [
+                {
+                    "name": "Default Synth",
+                    "type": "instrument",
+                    "format": "internal",
+                    "bypass": false,
+                    "parameters": {}
+                }
+            ],
+            "clips": [],
+            "automation": {}
+        }
+    ],
+    "buses": [
+        {
+            "id": "fx-1",
+            "name": "FX Bus 1",
+            "type": "aux",
+            "parameters": {
+                "volume": 1.0,
+                "pan": 0.0,
+                "mute": false,
+                "bypass": false
+            },
+            "plugins": [],
+            "sends": [],
+            "output": "master"
+        }
+    ],
+    "mixer": {
+        "layout": {
+            "order": ["master", "audio-1", "midi-1", "fx-1"]
+        },
+        "window": {
+            "visible": true,
+            "height": 200
+        }
+    },
+    "editor": {
+        "window": {
+            "zoom": 100.0,
+            "scroll": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "selected": {
+                "tracks": [],
+                "clips": []
+            }
+        }
+    },
+    "pianoRoll": {
+        "window": {
+            "visible": false,
+            "height": 300,
+            "keyRange": {
+                "low": 36,
+                "high": 96
+            },
+            "zoom": {
+                "horizontal": 100.0,
+                "vertical": 100.0
+            },
+            "snap": {
+                "enabled": true,
+                "value": 0.25
+            }
+        }
+    },
+    "plugins": {
+        "windowPositions": {},
+        "presetPaths": {},
+        "settings": {}
+    },
+    "resources": {
+        "audioFiles": [],
+        "midiFiles": [],
+        "samples": [],
+        "presets": []
+    },
+    "history": {
+        "undoStack": [],
+        "redoStack": []
+    }
+}
