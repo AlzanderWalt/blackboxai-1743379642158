@@ -1,0 +1,92 @@
+# Build directories
+build/
+bin/
+lib/
+out/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE specific files
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Audio files
+*.wav
+*.mp3
+*.aif
+*.aiff
+*.flac
+
+# MIDI files
+*.mid
+*.midi
+
+# Plugin files
+*.vst
+*.vst3
+*.component
+*.au
+
+# Project specific
+*.daw
+*.backup
+
+# User settings
+settings.xml
+user_config.json
+
+# Debug files
+*.log
+*.dmp
+*.trc
+
+# Dependencies
+JUCE/
+
+# Generated documentation
+docs/html/
+docs/latex/
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
