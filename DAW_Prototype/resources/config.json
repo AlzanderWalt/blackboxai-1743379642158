@@ -1,0 +1,151 @@
+{
+    "audio": {
+        "defaultOutputDevice": "",
+        "defaultInputDevice": "",
+        "sampleRate": 44100,
+        "bufferSize": 512,
+        "inputChannels": 2,
+        "outputChannels": 2,
+        "bitDepth": 32,
+        "dithering": true,
+        "autoConnectInputs": true,
+        "autoConnectOutputs": true
+    },
+    "midi": {
+        "defaultInputDevices": [],
+        "thruEnabled": true,
+        "clockEnabled": false,
+        "mtcEnabled": false,
+        "mtcFormat": 0,
+        "sendMMC": false,
+        "receiveMMC": false,
+        "velocityScale": 1.0,
+        "velocityOffset": 0
+    },
+    "project": {
+        "defaultTempo": 120.0,
+        "defaultTimeSignature": {
+            "numerator": 4,
+            "denominator": 4
+        },
+        "defaultKey": "C",
+        "defaultScale": "major",
+        "defaultQuantization": 0.25,
+        "autoSaveEnabled": true,
+        "autoSaveInterval": 300,
+        "maxUndoLevels": 100,
+        "defaultProjectPath": "",
+        "recentProjects": []
+    },
+    "ui": {
+        "theme": {
+            "darkMode": false,
+            "accentColor": "#007AFF",
+            "fontSize": 14,
+            "fontName": "Default",
+            "showTooltips": true,
+            "showStatusBar": true,
+            "showMeterBridges": true
+        },
+        "layout": {
+            "mixerVisible": true,
+            "pianoRollVisible": false,
+            "mixerHeight": 200,
+            "pianoRollHeight": 300,
+            "trackHeight": 100,
+            "minimumTrackHeight": 60,
+            "maximumTrackHeight": 300
+        },
+        "grid": {
+            "snapToGrid": true,
+            "showGrid": true,
+            "gridColor": "#404040",
+            "gridOpacity": 0.5,
+            "majorGridInterval": 4,
+            "minorGridInterval": 1
+        },
+        "meters": {
+            "meterStyle": "gradient",
+            "meterFallback": 1.5,
+            "peakHoldTime": 2000,
+            "rmsWindowSize": 50,
+            "showPeakMarkers": true,
+            "showClipIndicators": true
+        }
+    },
+    "plugins": {
+        "scanPaths": [],
+        "blacklist": [],
+        "favoritePlugins": [],
+        "pluginFormat": {
+            "vst3": true,
+            "au": true,
+            "lv2": false
+        },
+        "pluginWindowBehavior": {
+            "alwaysOnTop": false,
+            "hideWithHost": true,
+            "rememberPosition": true
+        }
+    },
+    "performance": {
+        "maxVoices": 256,
+        "diskCacheSize": 1024,
+        "ramCacheSize": 512,
+        "processingThreads": 0,
+        "pluginThreadPool": 4,
+        "realTimeProcessing": true,
+        "useMMCSS": true,
+        "guardAgainstDenormals": true
+    },
+    "recording": {
+        "prerollTime": 2.0,
+        "postrollTime": 2.0,
+        "countInEnabled": true,
+        "countInBars": 1,
+        "punchInEnabled": false,
+        "punchOutEnabled": false,
+        "recordFileFormat": "wav",
+        "recordBitDepth": 32,
+        "recordingPath": "",
+        "createTakeFolder": true,
+        "autoQuantize": false,
+        "autoQuantizeAmount": 0.5
+    },
+    "export": {
+        "defaultFormat": "wav",
+        "defaultBitDepth": 24,
+        "defaultSampleRate": 44100,
+        "normalizeOutput": false,
+        "normalizationLevel": -1.0,
+        "addDithering": true,
+        "exportMarkers": true,
+        "splitStereoFiles": false,
+        "includePluginLatency": true
+    },
+    "shortcuts": {
+        "transport": {
+            "play": "Space",
+            "stop": ".",
+            "record": "R",
+            "loop": "L",
+            "metronome": "M"
+        },
+        "edit": {
+            "undo": "Ctrl+Z",
+            "redo": "Ctrl+Shift+Z",
+            "cut": "Ctrl+X",
+            "copy": "Ctrl+C",
+            "paste": "Ctrl+V",
+            "delete": "Delete",
+            "selectAll": "Ctrl+A"
+        },
+        "view": {
+            "showMixer": "F3",
+            "showPianoRoll": "F4",
+            "zoomIn": "Ctrl++",
+            "zoomOut": "Ctrl+-",
+            "fitToScreen": "F"
+        }
+    }
+}
